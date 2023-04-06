@@ -19,7 +19,6 @@ Packet = EtherBroadcastPacket/ArpPacket
 
 # Send Packet and store response
 Result = scapy.srp(Packet, timeout=3)[0]
-
 Devices = []
 
 for sent, received in Result:
