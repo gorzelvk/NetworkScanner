@@ -1,3 +1,9 @@
+#
+#  NetworkScanner
+#
+#  Created by Kacper Gorzelak on 02/04/2023.
+#
+
 import scapy.all as scapy
 
 # scapy.conf.iface - default interface
